@@ -3,7 +3,6 @@ name: COURSE_SLUG
 channels: [conda-forge, nodefaults]
 dependencies:
   - conda-lock
-  - gettsim==0.7
   - ipykernel
   - ipywidgets
   - jupyterlab
@@ -27,4 +26,4 @@ dependencies:
   - sphinx-copybutton
   - statsmodels
   - toml
-  - pip: [-e ., kaleido, jupyter-book, jupyterquiz]
+  - pip: [-e ., kaleido, jupyter-book]

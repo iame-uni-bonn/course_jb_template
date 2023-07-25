@@ -1,8 +1,5 @@
 # Template for Flipped Classroom Courses Using Jupyter Book
 
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/hmgaudecker/finanz_und_sozialpolitik/main.svg)](https://results.pre-commit.ci/latest/github/hmgaudecker/finanz_und_sozialpolitik/main)
-[![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 ## Purpose
 
 This is a template repository for flipped classroom courses. It uses
@@ -64,7 +61,7 @@ $ npx slidev book_source/teachers/[chapter]/screencast_[x]/slides.md
 
 ### Add New Chapters
 
-1. Copy and paste `./scr/COURSE_SLUG/chapter_template`, and rename according to
+1. Copy and paste `./src/COURSE_SLUG/chapter_template`, and rename according to
    `CHAPTER_NAMES` in `src/COURSE_SLUG/config.py`.
 1. Append the folder name to CHAPTER_NAMES in `./src/COURSE_SLUG/config.py`.
 1. Run `pytask` to build the book and work on the To-Do list that is shown on the
@@ -84,9 +81,3 @@ A description of what needs to be done.
 ````
 
 To-Dos will only show up in the teacher book.
-
-## Credits
-
-This project was created with [cookiecutter](https://github.com/audreyr/cookiecutter)
-and the
-[econ-project-templates](https://github.com/OpenSourceEconomics/econ-project-templates).
