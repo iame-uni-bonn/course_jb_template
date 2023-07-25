@@ -15,7 +15,7 @@ StudentMaterialTypesStrings = dict[StudentMaterialTypes, list[str]]
 StudentMaterialTypesPaths = dict[StudentMaterialTypes, tuple[Path]]
 
 
-# Specify the most recent materials (see CHAPTER_NAMES below) to include in the book for each lecture type
+# Specify the most recent materials (see CHAPTER_NAMES below) to include in the book
 MOST_RECENT_MATERIALS: StudentMaterialTypesInts = {
     "prep": 0,
     "class": 0,
@@ -75,9 +75,7 @@ def filter_student_contents(
 ) -> list[str]:
     """Filter the contents of a lecture (preparation, in-class, post, old exams)."""
     return {
-        typ: names
-        for typ, names in contents.items()
-        if n <= MOST_RECENT_MATERIALS[typ]
+        typ: names for typ, names in contents.items() if n <= MOST_RECENT_MATERIALS[typ]
     }
 
 

@@ -22,6 +22,7 @@ extend-ignore = [
     "PLR0913",
     "EM101",
     "FBT001",
+    "N999", # capitalized module name
 ]
 
 
