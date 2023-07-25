@@ -22,7 +22,7 @@ Find and replace the following placeholders in the entire directory.
 | `COURSE_NAME`        | `Applied Microeconomics`                                                                                              |
 | `COURSE_DESCRIPTION` | `Ph.D. / M.Sc. course in Applied Microeconomics, Summer Term 2023`                                                    |
 | `COURSE_URL`         | `https://www.wiwi.uni-bonn.de/gaudecker/_static/applied_micro/landing-page.html` (course website, not git repository) |
-| `TEACHER_NAMES`      | `Prof. Dr. Hans-Martin von Gaudecker and Florian Zimmermann`                                                          |
+| `TEACHER_NAMES`      | `Prof. Dr. Hans-Martin von Gaudecker and Prof. Dr. Florian Zimmermann`                                                |
 | `COURSE_YEAR`        | `2023`                                                                                                                |
 
 Find and replace https://github.com/iame-uni-bonn/course_jb_template with the course's
@@ -43,7 +43,7 @@ $ npm install
 
 ### Build Project
 
-To build the project, type
+To build the project, execute
 
 ```console
 $ pytask
@@ -64,8 +64,8 @@ $ npx slidev book_source/teachers/[chapter]/screencast_[x]/slides.md
 
 ### Add New Chapters
 
-1. Copy and paste `./scr/applied_microeconomics/chapter_template`, and rename according
-   to `CHAPTER_NAMES` in `src/applied_microeconomics/config.py`.
+1. Copy and paste `./scr/COURSE_SLUG/chapter_template`, and rename according to
+   `CHAPTER_NAMES` in `src/COURSE_SLUG/config.py`.
 1. Append the folder name to CHAPTER_NAMES in `./src/COURSE_SLUG/config.py`.
 1. Run `pytask` to build the book and work on the To-Do list that is shown on the
    landing page when opening the book.
