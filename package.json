@@ -1,0 +1,9 @@
+{
+  "name": "ifo-iza-zew-bmfsfj-kgs",
+  "version": "0.0.1",
+  "dependencies": {
+    "@slidev/cli": "0.40.16",
+    "@slidev/theme-default": "0.21.2",
+    "playwright-chromium": "1.33.0"
+  }
+}
