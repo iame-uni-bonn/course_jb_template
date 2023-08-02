@@ -4,7 +4,7 @@
 
 ```{todo}
 Setup
-- Copy and paste `./scr/COURSE_SLUG/chapter_template`, and rename according to `CHAPTER_NAMES` in `src/COURSE_SLUG/config.py`.
+- Copy and paste `./src/COURSE_SLUG/chapter_template`, and rename according to `CHAPTER_NAMES` in `src/COURSE_SLUG/config.py`.
 
 Contents
 - Fill the existing .md and .ipynb files and/or add new ones.

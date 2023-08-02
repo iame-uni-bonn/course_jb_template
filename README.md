@@ -23,7 +23,7 @@ Find and replace the following placeholders in the entire directory.
 | `https://github.com/iame-uni-bonn/course_jb_template` | `https://gitlab.iame.uni-bonn.de/hmg/applied_microeconomics`                     |
 |                                                       | (no `.git` at the end)                                                           |
 | `TEACHER_NAMES`                                       | `Hans-Martin von Gaudecker and Florian Zimmermann`                               |
-| `AUTHOR_EMAIL`                                        | `hmgaudecker@uni-bonn.de`                                                        |
+| `ONE_AUTHORS_EMAIL`                                   | `hmgaudecker@uni-bonn.de`                                                        |
 |                                                       | (just one e-mail address)                                                        |
 | `COURSE_DATE`                                         | `Summer Term 2023`                                                               |
 

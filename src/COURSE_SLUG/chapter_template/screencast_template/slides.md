@@ -31,4 +31,7 @@ TEACHER_NAMES
 
 ---
 
-![Zinsausgaben_DE_IT](x.svg)
+# Some Content
+
+- First bullet
+- Second bullet

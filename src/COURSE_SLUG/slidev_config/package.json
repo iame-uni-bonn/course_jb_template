@@ -7,10 +7,10 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.3",
+    "@slidev/cli": "*",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-theme-academic": "^1.1.2",
-    "slidev-theme-geist": "^0.8.1"
+    "slidev-theme-academic": "*",
+    "slidev-theme-geist": "*"
   }
 }
