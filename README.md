@@ -13,16 +13,19 @@ allows to launch notebooks on JupyterHub.
 
 Find and replace the following placeholders in the entire directory.
 
-| Placeholder          | Replacement Example                                                                                                   |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `COURSE_SLUG`        | `applied_micro`                                                                                                       |
-| `COURSE_NAME`        | `Applied Microeconomics`                                                                                              |
-| `COURSE_DESCRIPTION` | `Ph.D. / M.Sc. course in Applied Microeconomics`                                                                      |
-| `COURSE_URL`         | `https://www.wiwi.uni-bonn.de/gaudecker/_static/applied_micro/landing-page.html` (course website, not git repository) |
-| `REPO_URL`           | `https://gitlab.iame.uni-bonn.de/hmg/applied_microeconomics` (no `.git` at the end)                                   |
-| `TEACHER_NAMES`      | `Hans-Martin von Gaudecker and Florian Zimmermann`                                                                    |
-| `AUTHOR_EMAIL`       | `hmgaudecker@uni-bonn.de` (just one)                                                                                  |
-| `COURSE_DATE`        | `Summer Term 2023`                                                                                                    |
+| Placeholder                                           | Replacement Example                                                              |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `COURSE_SLUG`                                         | `applied_micro`                                                                  |
+| `COURSE_NAME`                                         | `Applied Microeconomics`                                                         |
+| `COURSE_DESCRIPTION`                                  | `Ph.D. / M.Sc. course in Applied Microeconomics`                                 |
+| `COURSE_URL`                                          | `https://www.wiwi.uni-bonn.de/gaudecker/_static/applied_micro/landing-page.html` |
+|                                                       | (course website, not git repository)                                             |
+| `https://github.com/iame-uni-bonn/course_jb_template` | `https://gitlab.iame.uni-bonn.de/hmg/applied_microeconomics`                     |
+|                                                       | (no `.git` at the end)                                                           |
+| `TEACHER_NAMES`                                       | `Hans-Martin von Gaudecker and Florian Zimmermann`                               |
+| `AUTHOR_EMAIL`                                        | `hmgaudecker@uni-bonn.de`                                                        |
+|                                                       | (just one e-mail address)                                                        |
+| `COURSE_DATE`                                         | `Summer Term 2023`                                                               |
 
 Rename the directory `./src/COURSE_SLUG`.
 
