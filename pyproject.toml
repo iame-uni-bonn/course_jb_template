@@ -26,6 +26,9 @@ extend-ignore = [
     "S602", # `subprocess` call with `shell=True`
 ]
 
+[tool.ruff.per-file-ignores]
+"src/COURSE_SLUG/config.py" = ["ERA001"]
+"src/COURSE_SLUG/task_create_book.py" = ["ERA001"]
 
 [tool.ruff.pydocstyle]
 convention = "google"

@@ -13,7 +13,7 @@ from COURSE_SLUG.config import (
     BOOK_DIR,
     BOOK_SOURCE_DIR,
     CHAPTER_NAMES,
-    JUPYTERHUB_REPO_DIR,
+    # JUPYTERHUB_REPO_DIR,
     SRC,
     filter_student_lectures,
     get_chapter_title,
@@ -109,19 +109,19 @@ for s_o_t, all_chapters in sources_both_books.items():
 
                     nbformat.write(nb_processed, produces)
 
-                if s_o_t == "students":
-                    # Use the product of previous task as dependency for copying to
-                    # Jupyterhub repo.
-                    @pytask.mark.task(
-                        id=f"{c}, {produces.name}",
-                        kwargs={
-                            "depends_on": produces,
-                            "produces": JUPYTERHUB_REPO_DIR / c / produces.name,
-                        },
-                    )
-                    def task_copy_notebook_jupyterhub(depends_on, produces):
-                        """Copy some file to Jupyterhub repo."""
-                        shutil.copy(depends_on, produces)
+                # if s_o_t == "students":
+                #     # Use the product of previous task as dependency for copying to
+                #     # Jupyterhub repo.
+                #     @pytask.mark.task(
+                #         id=f"{c}, {produces.name}",
+                #         kwargs={
+                #             "depends_on": produces,
+                #             "produces": JUPYTERHUB_REPO_DIR / c / produces.name,
+                #         },
+                #     )
+                #     def task_copy_notebook_jupyterhub(depends_on, produces):
+                #         """Copy some file to Jupyterhub repo."""
+                #         shutil.copy(depends_on, produces)
 
             else:
 

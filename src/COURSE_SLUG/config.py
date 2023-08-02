@@ -39,7 +39,7 @@ BOOK_DIR = {
     "students": SRC.parent.parent / "book_students",
     "teachers": SRC.parent.parent / "book_teachers",
 }
-JUPYTERHUB_REPO_DIR = SRC.parent.parent.parent / "fsp"
+# JUPYTERHUB_REPO_DIR = SRC.parent.parent.parent / "fsp"
 
 TEST_DIR = SRC.joinpath("..", "..", "tests").resolve()
 
