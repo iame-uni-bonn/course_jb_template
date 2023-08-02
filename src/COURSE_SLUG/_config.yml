@@ -7,7 +7,7 @@ logo: uni-bonn-blue.jpg
 
 # Short description about the book
 description: >-
-  COURSE_DESCRIPTION
+  COURSE_DESCRIPTION, COURSE_DATE
 # HTML-specific settings
 html:
   home_page_in_navbar: false
@@ -19,7 +19,7 @@ html:
 notebook_interface: notebook
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/iame-uni-bonn/course_jb_template.git
+  url: REPO_URL.git
   path_to_book: student_book
 # LaTeX settings
 bibtex_bibfiles: [references.bib]
@@ -36,7 +36,7 @@ sphinx:
     bibtex_reference_style: author_year
     exclude_patterns: ['**/slides.md']
     html_theme_options:
-      repository_url: https://github.com/iame-uni-bonn/course_jb_template.git
+      repository_url: REPO_URL.git
       launch_buttons:
         jupyterhub_url: https://jupyterhub.hrz.uni-bonn.de
   extra_extensions: [sphinx.ext.todo]

@@ -17,16 +17,14 @@ Find and replace the following placeholders in the entire directory.
 | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `COURSE_SLUG`        | `applied_micro`                                                                                                       |
 | `COURSE_NAME`        | `Applied Microeconomics`                                                                                              |
-| `COURSE_DESCRIPTION` | `Ph.D. / M.Sc. course in Applied Microeconomics, Summer Term 2023`                                                    |
+| `COURSE_DESCRIPTION` | `Ph.D. / M.Sc. course in Applied Microeconomics`                                                                      |
 | `COURSE_URL`         | `https://www.wiwi.uni-bonn.de/gaudecker/_static/applied_micro/landing-page.html` (course website, not git repository) |
-| `TEACHER_NAMES`      | `Prof. Dr. Hans-Martin von Gaudecker and Prof. Dr. Florian Zimmermann`                                                |
-| `COURSE_YEAR`        | `2023`                                                                                                                |
+| `REPO_URL`           | `https://gitlab.iame.uni-bonn.de/hmg/applied_microeconomics` (no `.git` at the end)                                   |
+| `TEACHER_NAMES`      | `Hans-Martin von Gaudecker and Florian Zimmermann`                                                                    |
+| `AUTHOR_EMAIL`       | `hmgaudecker@uni-bonn.de` (just one)                                                                                  |
+| `COURSE_DATE`        | `Summer Term 2023`                                                                                                    |
 
-Find and replace https://github.com/iame-uni-bonn/course_jb_template with the course's
-git repo URL in the entire directory. (This should be multiple entries in `setup.cfg`
-and in `./src/COURSE_SLUG/_config.yml`.)
-
-Rename `./src/COURSE_SLUG`.
+Rename the directory `./src/COURSE_SLUG`.
 
 ### Requirements
 

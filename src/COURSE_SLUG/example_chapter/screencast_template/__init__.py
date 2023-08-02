@@ -1,1 +1,1 @@
-"""Code for producing the results of the Applied Microeconomics project."""
+"""Code for producing the results of the COURSE_NAME project."""

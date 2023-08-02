@@ -10,7 +10,7 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## Applied Microeconomics, Summer Term 2023
+  ## COURSE_NAME, COURSE_DATE
 # persist drawings in exports and build
 drawings:
   persist: false
@@ -24,9 +24,10 @@ defaults:
 
 # Some Topic
 
-## Applied Microeconomics
+## COURSE_NAME
 
-Hans-Martin von Gaudecker & Florian Zimmermann
+TEACHER_NAMES
+
 
 ---
 
