@@ -273,7 +273,7 @@ for s_o_t, all_chapters in sources_both_books.items():
                     all_book_sources,
                     BOOK_DIR[s_o_t] / "index.html",
                 ),
-                "produces": website / "_static" / "fsp" / "index.html",
+                "produces": website / "_static" / "COURSE_SLUG" / "index.html",
             },
         )
         def task_copy_book_to_website(depends_on, produces):
