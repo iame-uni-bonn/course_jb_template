@@ -68,7 +68,7 @@ $ npx slidev book_source/teachers/[chapter]/screencast_[x]/slides.md
 1. Run `pytask` to build the book and work on the To-Do list that is shown on the
    landing page when opening the book.
 1. Remove finished To-Dos from the list by deleting them in
-   `./src/COURSE_SLUG/[chapter]/contents.md`.
+   `./src/COURSE_SLUG/[chapter]/internal_overview.md`.
 
 ### Add New To-Dos
 

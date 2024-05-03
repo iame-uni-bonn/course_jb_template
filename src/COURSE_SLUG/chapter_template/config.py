@@ -21,7 +21,7 @@ BOOK_CONTENTS = {
         ),
     },
     "teachers": (
-        "contents.md",
+        "internal_overview.md",
         "objectives.md",
         "preparation.md",
         "in_class_exercise.ipynb",

@@ -1,5 +1,6 @@
 """Utility functions for processing Jupyter notebooks."""
 
+import re
 from copy import deepcopy
 from typing import Literal
 
@@ -43,12 +44,11 @@ def _adjust_title(cell, suffix):
         return cell
 
     out = deepcopy(cell)
-
-    title, *body = out["source"].split("\n", maxsplit=1)
-
-    new_title = title + suffix
-
-    out["source"] = "\n".join([new_title, *body])
+    pattern = r"(^# .*|\n# .*)\n"
+    match = re.search(pattern, out["source"])
+    if match:
+        new_title = match.group(1) + suffix
+        out["source"] = re.sub(pattern, new_title, out["source"], count=1)
     return out
 
 

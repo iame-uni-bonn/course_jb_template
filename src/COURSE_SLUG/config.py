@@ -64,8 +64,8 @@ assert len(set(CHAPTER_NAMES.values())) == len(
 _RAW_SOURCES = {c: load_sources(n, c) for n, c in CHAPTER_NAMES.items()}
 
 
-def filter_student_lectures(n: int) -> bool:
-    """Filter entire lectures."""
+def filter_student_sessions(n: int) -> bool:
+    """Filter entire sessions."""
     return max(tree_just_flatten(MOST_RECENT_MATERIALS)) >= n
 
 
@@ -73,7 +73,7 @@ def filter_student_contents(
     n: int,
     contents: StudentMaterialTypesStrings,
 ) -> list[str]:
-    """Filter the contents of a lecture (preparation, in-class, post, old exams)."""
+    """Filter the contents of a session (preparation, in-class, post, old exams)."""
     return {
         typ: names for typ, names in contents.items() if n <= MOST_RECENT_MATERIALS[typ]
     }

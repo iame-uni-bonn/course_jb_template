@@ -15,7 +15,7 @@ from COURSE_SLUG.config import (
     CHAPTER_NAMES,
     # JUPYTERHUB_REPO_DIR,
     SRC,
-    filter_student_lectures,
+    filter_student_sessions,
     get_chapter_title,
     get_sources_for_chapter,
 )
@@ -26,7 +26,7 @@ sources_both_books = {
     "students": [
         (n, CHAPTER_NAMES[n])
         for n in sorted(CHAPTER_NAMES)
-        if filter_student_lectures(n)
+        if filter_student_sessions(n)
     ],
     "teachers": [(n, CHAPTER_NAMES[n]) for n in sorted(CHAPTER_NAMES)],
 }
