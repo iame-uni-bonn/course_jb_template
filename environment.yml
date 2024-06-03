@@ -13,9 +13,10 @@ dependencies:
   - pip
   - plotly
   - pre-commit
+  - pybaum
   - pydata-sphinx-theme>=0.13.3
   - pytask-parallel
-  - pytask>=0.3
+  - pytask==0.4
   - pytest
   - pytest-cov
   - pytest-xdist
